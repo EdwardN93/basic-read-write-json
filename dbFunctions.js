@@ -17,7 +17,3 @@ function writeDb(obj, dbName = "db.json") {
   }
 }
 module.exports = { readDb, writeDb };
-// fs.readFile("data.json", JSON.stringify(data, null, 2), (err) => {
-//   if (err) throw err;
-//   console.log("Data has been saved!");
-// });
